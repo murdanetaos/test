@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foods Dictionary</title>
+    <link rel="stylesheet" href="/css/main.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="a-background">
+    <div class="content">
+      <!-- -----------------------------SIDE NAV-------------------------------------- -->
+      <div class="nav-container">
+        <svg class="nav-open nav-logo">
+          <use href="/img/sprite.svg#icon-menu"></use>
+        </svg>
+      </div>
+      <nav class="sidebar-none">
+        <svg class="nav-close nav-logo">
+          <use href="/img/sprite.svg#icon-cross"></use>
+        </svg>
+        <ul class="side-nav">
+          <li class="side-nav__item side-nav__item--home">
+            <a href="/index.html" class="side-nav__link">
+              <svg class="side-nav__icon">
+                <use href="/img/sprite.svg#icon-home"></use>
+              </svg>
+              <span>Home</span>
+            </a>
+          </li>
+          <li class="side-nav__item">
+            <a href="/api.html" class="side-nav__link">
+              <svg class="side-nav__icon">
+                <use href="/img/sprite.svg#icon-spoon-knife"></use>
+              </svg>
+              <span>Meal Plans</span>
+            </a>
+          </li>
+          <li class="side-nav__item side-nav__item--cp">
+            <a href="/contact.html" class="side-nav__link">
+              <svg class="side-nav__icon">
+                <use href="/img/sprite.svg#icon-envelop"></use>
+              </svg>
+              <span>Contact Page</span>
+            </a>
+          </li>
+          <li class="side-nav__item side-nav__item--t">
+            <a href="/about.html" class="side-nav__link">
+              <svg class="side-nav__icon">
+                <use href="/img/sprite.svg#icon-users"></use>
+              </svg>
+              <span>Meet Our Team</span>
+            </a>
+          </li>
+        </ul>
+        <div class="legal">
+          &copy;2023 Live 2 Progress. All rights reserved.
+        </div>
+      </nav>
+      <!-- ------------------------------------Hero Content---------------------------- -->
+      <main class="top-view">
+        <header class="a-img-header">
+          <a href="/login.html" class="btn-login">Login</a>
+          <div class="a-img-header__text-box">
+            <h1 class="a-h1-heading">
+              <span class="a-h1-heading__title">Meal Plans</span>
+              <span class="a-h1-heading__sub-title"
+                >A Real Time Food Dictionary
+              </span>
+              <span class="a-h1-heading__sub-title">Search down below </span>
+            </h1>
+          </div>
+        </header>
+      </main>
+    </div>
+    <!-- ------------------------------------API Content---------------------------- -->
+    <section>
+      <div class="container">
+        <div class="search-container">
+          <h1 class="brand">The Food Dictionary</h1>
+          <form class="search">
+            <input
+              class="api-search search__input"
+              type="text"
+              placeholder="search your meal..."
+            />
+          </form>
+        </div>
+        <div class="search-result"></div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-content">
+        <h3>Live 2 progress</h3>
+        <p>
+          "Transform Your Body, Elevate Your Life! Live 2 Progress empowers you
+          with personalized meal plans and dynamic workout packages, inspiring
+          you to reach new heights of fitness and embrace a vibrant, fulfilling
+          lifestyle."
+        </p>
+        <ul class="socials">
+          <li>
+            <a href="https://www.instagram.com/"
+              ><i class="bx bxl-instagram"> instagram | </i></a
+            >
+          </li>
+          <li>
+            <a href="https://twitter.com/">
+              <i class="bx bxl-twitter"> twitter | </i></a
+            >
+          </li>
+          <li>
+            <a href="https://facebook.com/"
+              ><i class="bx bxl-facebook-circle"> facebook | </i></a
+            >
+          </li>
+          <li>
+            <a href="https://spotify.com/"
+              ><i class="bx bxl-spotify"> spotify | </i></a
+            >
+          </li>
+          <li>
+            <a href="https://youtube.com/"
+              ><i class="bx bxl-youtube"> youtube | </i></a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="/script/index.js"></script>
+    <script src="/script/design.js"></script>
+  </body>
+</html>
