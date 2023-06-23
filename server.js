@@ -11,7 +11,7 @@ app.use("/script", express.static(path.join(__dirname, "/script")));
 app.use("/css", express.static(path.join(__dirname, "/css")));
 app.use("/img", express.static(path.join(__dirname, "/img")));
 // Define the routes
-app.get("/public/index.html", (req, res) => {
+app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "index.html"));
 });
 
